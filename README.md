@@ -1,6 +1,6 @@
 # JSON formatting for `vultr-cli` commands<sup>1</sup>
 
-> <sup>1</sup> Very few `vultr-cli` commands are supported (see: [Supported Commands](#support-commands))
+> <sup>1</sup> Very few `vultr-cli` commands are supported (see: [Supported Commands](#supported-commands))
 
 Implements a <font style="color:green">very basic</font> form of `--output=json` formatting for [`vultr-cli`](https://github.com/vultr/vultr-cli)
 
@@ -94,6 +94,7 @@ Currently supports a very limited subset of commands
 
 |Command|Sub-command(s)|Script(s)|
 |-------|--------------|---------|
+|`block-storage`|`create`, `get`, `list`|`format/bs.sh`|
 |`kubernetes`|`create`, `get`|`format/k8s.sh`|
 |`load-balancer`|`create`, `get`|`format/lb.sh`|
 
