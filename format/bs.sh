@@ -3,7 +3,7 @@
 # Example: go-vultr block-storage list|get
 #
 # ID					REGION ID	INSTANCE ID				SIZE GB		STATUS	LABEL			BLOCK TYPE	DATE CREATED			MONTHLY COST	MOUNT ID
-# 12345678-90ab-cdef-1234-567890abcdef	sea		12345678-90ab-cdef-1234-567890abcdef	50		active	pvc-8c20528a369142c7	storage_opt	2022-06-08T16:21:46+00:00	$1.25		sea-57b09ea57b2145
+# 12345678-90ab-cdef-1234-567890abcdef	sea		12345678-90ab-cdef-1234-567890abcdef	50		active	pvc-123456789abcdef0	storage_opt	2022-01-01T00:00:00+00:00	$1.00		sea-123456789abcde
 
 read _ # LABELS
 
